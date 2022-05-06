@@ -28,19 +28,19 @@ def bag_of_words(tokenized_sentence, all_words):
 print(a)
 a = tokenize(a)
 print(a)
-
-words = ["memberi","diberi","Memberikan"]
+"""
+"""words = ["memberi","diberi","Memberikan"]
 stemmed_words = [stem(w) for w in words]
-print(stemmed_words)
+print(stemmed_words)"""
 
-sentence = 'Saya Hari ini merencanakan berpergian mengendarai motor berkeliling di antasari lantai 2'
+"""sentence = 'Saya Hari ini belajar kecerdasan buatan'
 output   = stemmer.stem(sentence)
 
 print(output)
-
+"""
 #ini bag of words
-sentence = ["hai","apa","kabar","kamu"]
+"""sentence = ["hai","apa","kabar","kamu"]
 words = ["hai", "terimakasih", "kabar", "daftar", "kuliah", "dosen", "kamu"]
 bog = bag_of_words(sentence, words)
-print(bog) """
-
+print(bog) 
+"""
