@@ -10,3 +10,9 @@ scipy==1.8.0
 seaborn==0.11.2
 torch==1.11.0
 torchvision==0.12.0
+scikit-learn==1.0.2
+threadpoolctl==3.1.0
+keras==2.8.0
+tensorflow==2.8.0
+ann_visualizer==2.5
+graphviz==0.20
