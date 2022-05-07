@@ -3,9 +3,10 @@ import numpy as np
 
 from nltk_utils import bag_of_words, tokenize, stem
 
+#Pytorch DataSet
 import torch
 import torch.nn as nn
-from torch.utils.data import Dataset, DataLoader
+from torch.utils.data import Dataset, DataLoader 
 from model import NeuralNet
 
 
@@ -35,7 +36,7 @@ for (pattern_sentence, tag) in xy:
     bag = bag_of_words(pattern_sentence, all_words)
     x_train.append(bag)
     label = tags.index(tag)
-    y_train.append(label)
+    y_train.append(label) #Tidak Menggunakan One Hot, Ini pake CrossEntropyLoss
 
 
 x_train = np.array(x_train)
@@ -49,12 +50,14 @@ input_size = len(x_train[0])
 learning_rate = 0.001
 num_epochs = 1000
 
+#Datasetnya
 class ChatDataset(Dataset):
     def __init__(self):
         self.n_samples =len(x_train)
         self.x_data = x_train
         self.y_data = y_train
     
+    #dataset index
     def __getitem__(self, index):
         return self.x_data[index], self.y_data[index]
     

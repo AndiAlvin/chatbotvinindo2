@@ -50,5 +50,19 @@ input_size = len(x_train[0])
 learning_rate = 0.001
 num_epochs = 1000
 
-print (output_size)
-print(input_size)
+class ChatDataset(Dataset):
+    def __init__(self):
+        self.n_samples =len(x_train)
+        self.x_data = x_train
+        self.y_data = y_train
+    
+    #dataset index
+    def __getitem__(self, index):
+        return self.x_data[index], self.y_data[index]
+    
+    def __len__(self):
+        return self.n_samples
+
+print ("Nilai Len(Tags)= ",output_size)
+print("Nilai Len(xtrain[0]) ",input_size)
+print("Nilai Len(xtrain)= ",len(x_train))
