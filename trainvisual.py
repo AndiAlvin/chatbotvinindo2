@@ -63,6 +63,9 @@ class ChatDataset(Dataset):
     def __len__(self):
         return self.n_samples
 
-print ("Nilai Len(Tags)= ",output_size)
-print("Nilai Len(xtrain[0]) ",input_size)
+print ("Nilai Len(Tags) output size= ",output_size)
+print("Nilai Len(xtrain[0]) input size= ",input_size)
 print("Nilai Len(xtrain)= ",len(x_train))
+
+print(input_size, len(all_words))
+print(output_size,tags)
