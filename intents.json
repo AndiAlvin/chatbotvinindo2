@@ -15,7 +15,7 @@
         "aloo"
       ],
       "responses": [
-        "Hallo, Terimakasih sudah menghubungi Sada.AI, ada yang bisa dibantu?"
+        "Hallo, Terimakasih sudah menghubungi Sada.AI, Silahkan bertanya terkait pendaftaran mahasiswa baru di Universitas Darma Persada?"
       ]
     },
     {
@@ -328,7 +328,7 @@
         "nim nya gimana?"
       ],
       "responses": [
-        "Untuk memperoleh NIM, pendaftar minimal harus membayar Heregistrasi dan BPP Pokok sesuai jurusan. Setelah melakukan pembayaran, pendaftar melengkapi berkas daftar ulang yang tertera pada menu nomor 4 (empat) Reg Ulang kemudian menyerahkannya ke petugas PMB. Selama pandemi, pendaftaran ulang dilayani secara online melalui email di pmb@unsada.ac.id dengan cara scan berkas daftar ulang kemudian dicek oleh admin melalui email. Berkas asli tetap harus diserahkan ke PMB UNSADA baik dengan cara dikirimkan menggunakan jasa ekspedisi atau diserahkan langsung sesuai jadwal kedatangan yang diberikan oleh admin PMB."
+        "Nomor Induk Mahasiswa/Nomor Pokok Mahasiswa yang digunakan sebagai nomor identitas kamu selama kuliah,Untuk memperoleh NIM, pendaftar minimal harus membayar Heregistrasi dan BPP Pokok sesuai jurusan. Setelah melakukan pembayaran, pendaftar melengkapi berkas daftar ulang yang tertera pada menu nomor 4 (empat) Reg Ulang kemudian menyerahkannya ke petugas PMB. Selama pandemi, pendaftaran ulang dilayani secara online melalui email di pmb@unsada.ac.id dengan cara scan berkas daftar ulang kemudian dicek oleh admin melalui email. Berkas asli tetap harus diserahkan ke PMB UNSADA baik dengan cara dikirimkan menggunakan jasa ekspedisi atau diserahkan langsung sesuai jadwal kedatangan yang diberikan oleh admin PMB."
       ]
     },
     {
@@ -336,7 +336,7 @@
       "patterns": [
         "Bagaimana jika ingin menghubungi admin PMB?",
         "hubungi admin",
-        "ga ngerti",
+        "apakah ada admin yang bisa di hubungi?",
         "aku mau hubungin admin",
         "tolong hubungi admin"
       ],

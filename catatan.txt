@@ -7,3 +7,10 @@ untuk file bernama testvis1.py
 run code case:
 - python 3 = menggunakan range
 - python 2 = menggunakan xrange
+------------------------
+Feed Forward neural network
+satu layer full connected
+bag of word sebagai input
+activation function menggunakan RELU
+diakhir tidak ada softmax karena menggunakan crossentrophy loss
+crossentrophy loss sudah menerapkan softmax didalamnya
