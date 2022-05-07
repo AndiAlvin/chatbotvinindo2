@@ -2,3 +2,8 @@ untuk menjalankan graphviz, pastikan package nya sudah terinstall di sistem
 brew install graphviz
 pip install graphviz
 baru abis itu install library graphviz nya
+----------------------
+untuk file bernama testvis1.py
+run code case:
+- python 3 = menggunakan range
+- python 2 = menggunakan xrange
