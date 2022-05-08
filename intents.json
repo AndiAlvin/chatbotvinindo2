@@ -7,15 +7,13 @@
         "Hi",
         "Hey",
         "Hai",
-        "Hallo",
-        "Hello",
-        "Test",
+        "Halo",
         "mau nanya",
         "mau bertanya",
-        "aloo"
+        "saya ingin bertanya"
       ],
       "responses": [
-        "Hallo, Terimakasih sudah menghubungi Sada.AI, Silahkan bertanya terkait pendaftaran mahasiswa baru di Universitas Darma Persada?"
+        "Halo, Terimakasih sudah menghubungi Sada.AI, Silahkan bertanya terkait pendaftaran mahasiswa baru di Universitas Darma Persada"
       ]
     },
     {
@@ -38,10 +36,11 @@
         "Selamat pagi",
         "good morning",
         "pagi",
-        "morning"
+        "morning",
+        "pagi kak"
       ],
       "responses": [
-        "Selamat Pagi Kak",
+        "Hallo , Selamat Pagi",
         "Selamat Pagi"
       ]
     },
@@ -54,7 +53,7 @@
         "afternoon"
       ],
       "responses": [
-        "Selamat Siang"
+        "Hai,Selamat Siang"
       ]
     },
     {
@@ -62,11 +61,10 @@
       "patterns": [
         "Selamat malam",
         "good night",
-        "malam",
-        "malem"
+        "malam"
       ],
       "responses": [
-        "Selamat Malam"
+        "Hai,Selamat Malam"
       ]
     },
     {
@@ -75,7 +73,8 @@
         "Siapa kamu?",
         "ini siapa?",
         "namamu siapa?",
-        "siapa nih"
+        "siapa nih",
+        "kamu siapa?"
       ],
       "responses": [
         "Hallo,Perkenalkan aku adalah Sada.AI, chatbot yang diciptakan untuk memberikan informasi terkait PMB unsada,Pembuatku bernama Andi Alvin"
@@ -85,11 +84,7 @@
       "tag": "goodbye1",
       "patterns": [
         "Senang bisa berbicara dengan mu",
-        "bye",
         "Terimakasih",
-        "Dadah",
-        "Thanks",
-        "Thank you",
         "makasih ya",
         "makasih"
       ],
@@ -103,10 +98,7 @@
         "kamu bisa apa",
         "apa keahlian kamu",
         "apa yang bisa kamu informasikan",
-        "dikasih info maszehhh",
-        "info nya slur",
-        "info nya boshkuh",
-        "info nya cuk"
+        "informasi apa yang kamu punya"
       ],
       "responses": [
         "kamu bisa mempertanyakan terkait PMB, jika mengalami kesulitan silahkan ketikkan pertanyaan mu"
@@ -146,7 +138,8 @@
         "ada kelas apa aja di kampus?",
         "kelas nya terbagi apa aja?",
         "Jadwal kelas?",
-        "info sesi kuliah?"
+        "info sesi kuliah?",
+        "Informasi Mengenai Kelas"
       ],
       "responses": [
         "Universitas darma persada memiliki beberapa kelas,Untuk Sesi Reguler dibagi menjadi 2: Reguler pagi dan malam| tersedia juga untuk kelas karyawan"
@@ -159,7 +152,8 @@
         "Jadwal kuliah reguler pagi?",
         "kapan jadwal kuliah reguler pagi?",
         "kuliah kelas reguler pagi jam berapa?",
-        "jam berapa kelas reguler pagi?"
+        "jam berapa kelas reguler pagi?",
+        "Jam kelas Reguler Pagi"
       ],
       "responses": [
         "Reguler (Pagi) : Waktu perkuliahan Senin-Jumat (08:00-16:00)"
@@ -195,10 +189,11 @@
       "tag": "Pendaftaran",
       "patterns": [
         "saya ingin daftar?",
-        "dimana saya bisa daftaran?",
-        "pendaftaran",
+        "dimana saya bisa mendaftar?",
+        "pendaftaran kuliah",
         "bagaimana cara daftar?",
-        "info pendaftaran?"
+        "info pendaftaran?",
+        "Informasi mengenai pendaftaran"
       ],
       "responses": [
         "untuk pendaftaran dan pembayaran dilakukan secara online"
@@ -210,7 +205,8 @@
         "Apa itu token dan kegunaannya?",
         "fungsi token?",
         "apa sih token itu",
-        "apa itu token?"
+        "apa itu token?",
+        "Token itu apa?"
       ],
       "responses": [
         "Token adalah kode yang diberikan ke pendaftar setelah melakukan pembayaran uang pendaftaran. Kegunaannya adalah sebagai kode yang dimasukkan ke sistem pmb online di pmb.unsada.ac.id agar pendaftar dapat melanjutkan pengisian data lengkap pendaftarannya."
@@ -226,7 +222,9 @@
       "patterns": [
         "Apa yang harus dilakukan setelah memiliki token?",
         "setelah dapat token?",
-        "sudah punya token"
+        "sudah punya token",
+        "aku sudah punya token nya",
+        "sudah memiliki token nya"
       ],
       "responses": [
         "Setelah memiliki token, pendaftar wajib melakukan Konfirmasi Pembayaran sesuai jalur, sesi kelas pada gelombang saat mendaftar."
@@ -236,7 +234,8 @@
       "tag": "bayar1",
       "patterns": [
         "Bagaimana cara melakukan Konfirmasi Pembayaran?",
-        "konfirmasi bayar"
+        "konfirmasi bayar",
+        "saya ingin melakukan konfirmasi pembayaran"
       ], 
       "responses": [
         "<a href='https://pmb.unsada.ac.id/login' target='_blank'>Kampus</a>Silahkan untuk login lalu klik Konfirmasi Pembayaran sesuai jalur dan sesi kelas. Masukkan id peminat dan token, kemudian isi kolom yang bertanda bintang merah lalu klik simpan."
@@ -291,7 +290,7 @@
       "patterns": [
         "Bagaimana cara melihat hasil seleksi apakah diterima atau tidak ?",
         "hasil seleksi?",
-        "aku lulus ga?",
+        "apakah saya lulus seleksi?",
         "cek seleksi"
       ],
       "responses": [
@@ -303,7 +302,8 @@
       "patterns": [
         "Bagaimana cara melakukan pembayaran tagihan Pendaftaran Ulang?",
         "cara bayar tagihan pendaftaran ulang",
-        "cara bayar tagihan daftar ulang"
+        "cara bayar tagihan daftar ulang",
+        "saya ingin bayar pendaftaran ulang"
       ],
       "responses": [
         "Untuk melunasi tagihan pendaftaran ulang (Heregistrasi, BPP Pokok,BPP SKS) pendaftar harus Generate Virtual Account terlebih dahulu melalui akun pendaftar di pmb.unsada.ac.id lalu pilih menu nomor 2 (Keuangan) lalu checklist tagihan yang akan dibayarkan, kemudian klik Generate Virtual Account."
@@ -314,7 +314,8 @@
       "tag": "bayarlunas",
       "patterns": [
         "Bagaimana cara untuk melakukan pembayaran tagihan Pendaftaran Ulang secara lunas ?",
-        "bayar lunas gimana?"
+        "bayar lunas gimana?",
+        "Saya ingin melunasi pendaftaran ulang"
       ],
       "responses": [
         "Untuk dapat membayar lunas tagihan Pendaftaran Ulang, pendaftar harus menghubungi petugas PMB baik dengan datang secara langsung, atau secara online dengan menghubungi admin"
@@ -325,7 +326,20 @@
       "patterns": [
         "Bagaimana cara untuk memperoleh NIM?",
         "cara dapetin nim?",
-        "nim nya gimana?"
+        "nim nya gimana?",
+        "cara memperoleh nim?"
+      ],
+      "responses": [
+        "Nomor Induk Mahasiswa/Nomor Pokok Mahasiswa yang digunakan sebagai nomor identitas kamu selama kuliah,Untuk memperoleh NIM, pendaftar minimal harus membayar Heregistrasi dan BPP Pokok sesuai jurusan. Setelah melakukan pembayaran, pendaftar melengkapi berkas daftar ulang yang tertera pada menu nomor 4 (empat) Reg Ulang kemudian menyerahkannya ke petugas PMB. Selama pandemi, pendaftaran ulang dilayani secara online melalui email di pmb@unsada.ac.id dengan cara scan berkas daftar ulang kemudian dicek oleh admin melalui email. Berkas asli tetap harus diserahkan ke PMB UNSADA baik dengan cara dikirimkan menggunakan jasa ekspedisi atau diserahkan langsung sesuai jadwal kedatangan yang diberikan oleh admin PMB."
+      ]
+    },
+    {
+      "tag": "biayakuliah1",
+      "patterns": [
+        "Bagaimana cara untuk memperoleh NIM?",
+        "cara dapetin nim?",
+        "nim nya gimana?",
+        "cara memperoleh nim?"
       ],
       "responses": [
         "Nomor Induk Mahasiswa/Nomor Pokok Mahasiswa yang digunakan sebagai nomor identitas kamu selama kuliah,Untuk memperoleh NIM, pendaftar minimal harus membayar Heregistrasi dan BPP Pokok sesuai jurusan. Setelah melakukan pembayaran, pendaftar melengkapi berkas daftar ulang yang tertera pada menu nomor 4 (empat) Reg Ulang kemudian menyerahkannya ke petugas PMB. Selama pandemi, pendaftaran ulang dilayani secara online melalui email di pmb@unsada.ac.id dengan cara scan berkas daftar ulang kemudian dicek oleh admin melalui email. Berkas asli tetap harus diserahkan ke PMB UNSADA baik dengan cara dikirimkan menggunakan jasa ekspedisi atau diserahkan langsung sesuai jadwal kedatangan yang diberikan oleh admin PMB."
@@ -338,7 +352,8 @@
         "hubungi admin",
         "apakah ada admin yang bisa di hubungi?",
         "aku mau hubungin admin",
-        "tolong hubungi admin"
+        "tolong hubungi admin",
+        "saya ingin berbicara dengan admin "
       ],
       "responses": [
         "Jika ada pertanyaan lebih lanjut terkait PMB, pendaftar dapat menghubungi admin PMB melalui email di pmb@unsada.ac.id atau <a href='https://bit.ly/WApmbUNSADA' target='_blank'>WhatsApp</a>" 
